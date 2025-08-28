@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadDescription</key>
+      <string>Use AdGuard public DNS (ad-blocking) via DNS-over-HTTPS</string>
+      <key>PayloadDisplayName</key>
+      <string>AdGuard DoH (Ad-block)</string>
+      <key>PayloadIdentifier</key>
+      <string>com.example.adguard.doh</string>
+      <key>PayloadType</key>
+      <string>com.apple.dnsSettings.managed</string>
+      <key>PayloadUUID</key>
+      <string>1F0C1D21-5EB1-490E-8A52-0F9A0D5400A7</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>DNSSettings</key>
+      <dict>
+        <key>DNSProtocol</key>
+        <string>HTTPS</string>
+        <key>ServerURL</key>
+        <string>https://dns.adguard-dns.com/dns-query</string>
+        <key>ServerAddresses</key>
+        <array>
+          <string>94.140.14.14</string>
+          <string>94.140.15.15</string>
+        </array>
+      </dict>
+    </dict>
+  </array>
+  <key>PayloadDisplayName</key>
+  <string>AdGuard DNS (Ad-block) – DoH</string>
+  <key>PayloadIdentifier</key>
+  <string>com.example.profile.adguard.doh</string>
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>2B4E0E09-2C3D-4F4C-9B48-1A4B2A1F3C8D</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>
